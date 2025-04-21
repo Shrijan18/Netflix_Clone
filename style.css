@@ -5,7 +5,7 @@
 }
 
 .bg {
-    background-image: url(bg.jpg);
+    background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
     background-position: center top;
@@ -44,8 +44,6 @@ nav img {
     display: flex;
     gap: 10%;
     align-items: center;
-    /* flex-direction: row; */
-    /* justify-content: center; */
 }
 
 #sign-btn {
@@ -62,8 +60,6 @@ nav img {
 
 .one {
     max-width: 34vw;
-    /* word-break: break-word; */
-    /* overflow-wrap: break-word; */
     text-align: center;
     font-size: 4rem;
     color: #fff;
@@ -96,7 +92,6 @@ nav img {
 .four {
     color: white;
     background-color: black;
-    /* text-align: center; */
     margin: 1% 0.2% auto 34%;
     padding: 0.7% 7%;
     border-radius: 7%;
@@ -175,10 +170,6 @@ nav img {
 }
 
 .reason {
-    /*display: flex;
-    gap: 50px;*/
-    /* justify-content: center; */
-    /* align-items: center; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1vw;
@@ -234,21 +225,10 @@ nav img {
 
 
 .emoji {
-    /* position: relative; */
     position: absolute;
-    /* top: 50%; */
     bottom: 2vh;
     right: 2vw;
 }
-
-/* @media only screen and (max-width: 685px) {
-    .emoji {
-        position: absolute;
-        top: 1vh;
-        right: 2vw;
-        height: 10%;
-    }
-} */
 
 .eight {
     margin: 4% auto 1.5% 8%;
@@ -283,10 +263,6 @@ nav img {
     right: 2vw;
     width: 3vw;
 }
-
-
-
-
 
 .nine {
     text-align: center;
@@ -337,18 +313,6 @@ nav img {
     cursor: pointer;
 }
 
-/*
-.thirteen {
-    opacity: 70%;
-    display: flex;
-    gap: 25%;
-    color: white;
-    row-gap: 15%;
-    cursor: pointer;
-    justify-content: flex-start;
-    margin-left: 10%;
-}*/
-
 .thirteen {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -367,7 +331,6 @@ nav img {
         gap: 8px;
     }
 }
-
 
 .list1 {
     list-style: none;
