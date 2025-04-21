@@ -16,6 +16,6 @@ A responsive Netflix landing page clone built using **HTML** and **CSS**. This p
 
 - HTML5
 - CSS3
-- (Optional: You can mention Flexbox, Grid, Media Queries)
 
-<pre> ## 📁 Folder Structure ``` netflix-clone/ ├── images/ ├── index.html ├── README.md └── style.css ``` </pre>
+## 📁 Folder Structure 
+``` netflix-clone/ ├── images/ ├── index.html ├── README.md └── style.css ```
