@@ -9,11 +9,13 @@
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
     background-position: center top;
+    overflow-x: hidden;
+    background-size: cover;
 }
 
 
 body {
-    background: linear-gradient(to bottom, rgb(5, 2, 20), rgb(5, 2, 10));
+    background: linear-gradient(to bottom, rgb(9, 3, 44), rgb(5, 2, 10));
     background-size: max(1200px, 100vw);
     background-position: center top;
 }
@@ -21,6 +23,24 @@ body {
 nav {
     display: flex;
     gap: 59%;
+}
+
+@media (max-width: 1481px) {
+    nav {
+        gap: 55%;
+    }
+}
+
+@media (max-width: 815px) {
+    nav {
+        gap: 45%;
+    }
+}
+
+@media (max-width: 781px) {
+    nav {
+        gap: 40%;
+    }
 }
 
 nav img {
@@ -34,8 +54,8 @@ nav img {
     border-color: gray;
     margin-top: 30%;
     padding: 5% 10%;
-    font-size: 99%;
-    font-weight: 549;
+    font-size: 89%;
+    /* font-weight: 549; */
     background-color: black;
     opacity: 0.44;
 }
@@ -89,10 +109,15 @@ nav img {
     margin-top: 2%;
 }
 
+#info {
+    margin: 2%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
 .four {
     color: white;
     background-color: black;
-    margin: 1% 0.2% auto 34%;
     padding: 0.7% 7%;
     border-radius: 7%;
 }
@@ -100,18 +125,19 @@ nav img {
 #five {
     background-color: #ff1100;
     color: white;
-    border-radius: 7%;
+    border-radius: 40%;
     border: 1px solid red;
     padding: 0.4% 1%;
-    font-size: 140%;
+    font-size: 130%;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 19%;
 }
 
 .six {
-    margin: 1% auto 2% 8%;
-    font-size: 180%;
+    /* margin: 1% auto 2% 8%; */
+    margin-top: 4%;
+    margin-left: 9%;
+    font-size: 170%;
     color: #ffffff;
     font-weight: 520;
 }
@@ -120,7 +146,7 @@ nav img {
     display: flex;
     gap: 3vw;
     justify-content: center;
-    margin: 3vh 3vw;
+    margin: 2vh 3vw;
 }
 
 .t {
@@ -138,7 +164,7 @@ nav img {
     top: 10px;
     left: 5px;
     z-index: 2;
-    font-size: 500%;
+    font-size: 450%;
     margin: 0;
 }
 
@@ -162,18 +188,11 @@ nav img {
     }
 }
 
-.seven {
-    margin: 4% auto 1.5% 8%;
-    font-size: 180%;
-    color: #ffffff;
-    font-weight: 520;
-}
-
 .reason {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1vw;
-    margin: 5vh 10vw;
+    margin: 2vh 10vw;
 }
 
 .rsn p {
@@ -230,19 +249,13 @@ nav img {
     right: 2vw;
 }
 
-.eight {
-    margin: 4% auto 1.5% 8%;
-    font-size: 180%;
-    color: #ffffff;
-    font-weight: 520;
-}
-
 .ques {
     display: flex;
     gap: 20px;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
+    margin: 2vh 0;
 }
 
 .qn {
@@ -347,7 +360,7 @@ nav img {
     margin: 3% 10%;
     padding: 0.5% 1%;
     font-size: 110%;
-    /* font-weight: 549; */
+    font-weight: 549;
     background-color: rgb(0, 0, 0);
     opacity: 0.64;
 }
